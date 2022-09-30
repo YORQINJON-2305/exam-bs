@@ -1,3 +1,11 @@
+var elHeader = document.querySelector(".site-header");
+var elBurgerBtn = document.querySelector(".burger-btn");
+
+elBurgerBtn.addEventListener("click", function(){
+    elHeader.classList.toggle("show");
+})
+
+
 $(function () {
     $('.slider-wrap').slick({
         slidesToShow: 4,
