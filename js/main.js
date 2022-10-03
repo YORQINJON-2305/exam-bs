@@ -7,15 +7,13 @@ elBurgerBtn.addEventListener("click", function(){
 
 
 $(function () {
-    $('.slider-wrap').slick({
+    $('.carousel-item-wrap').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
-        lazyLoad: 'ondemand',
-        dots: true,
-        prevArrow: "<span><img src='./images/left-arrow.svg' alt='Left arrow'></span>",
-        nextArrow: "<span><img src='./images/right-arrow.svg' alt='Right arrow'></span>",
+        prevArrow: "<span><img src='./images/arrow-left.svg' alt='Left arrow'></span>",
+        nextArrow: "<span><img src='./images/arrow-right.svg' alt='Right arrow'></span>",
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 3000,
         responsive: [
             {
                 breakpoint: 1200,
@@ -26,7 +24,7 @@ $(function () {
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 992,
                 settings: {
                     centerMode: true,
                     centerPadding: '0',

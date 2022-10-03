@@ -1,0 +1,40 @@
+.projects-title-wrap{
+    width: 100%;
+    max-width: 497px;
+    margin-bottom: 48px;
+}
+
+.projects-title{
+    margin-bottom: 23px;
+    font-size: 20px;
+    line-height: 37.5px;
+}
+
+.projects-text{
+    font-size: 12px;
+    color:#525252;
+    line-height: 22px;
+}
+
+.projects-item{
+    &:not(:last-child){
+        margin-bottom: 29px;
+    }
+}
+
+.projects-img{
+    width: 100%;
+    max-width: 382px;
+}
+
+@include mobile-first(570px){
+    .projects-title{
+        font-size: 25px;
+        line-height: 46.88px;
+    }
+
+    .projects-text{
+        font-size: 14px;
+        line-height: 26.25px;
+    }
+}

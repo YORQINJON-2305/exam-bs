@@ -1,5 +1,5 @@
 .hero{
-    margin-bottom: 100px;
+    margin-bottom: 48px;
     padding: 108px 27px;
     background-image: url("../../images/hero-bg-mobile.png");
     background-repeat: no-repeat;
@@ -44,6 +44,7 @@
 
 @include mobile-first(768px){
     .hero{
+        margin-bottom: 83px;
         background-image: url("../../images/hero-desktop.png"), url("../../images/hero-bg-mobile.png");
         background-size: 100% 100%, 100% 70%;
         background-position: calc(50%), bottom;
