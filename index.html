@@ -167,36 +167,165 @@
 
     <!-- ===== PROJECTS START ===== -->
     <section class="projects">
-       <div class="container">
+       <div class="d-container">
            <div class="projects-title-wrap mx-auto text-center">
              <h2 class="projects-title fw-semibold">Our Recent Projects</h2>
              <p class="projects-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
            </div>
            <div class="row">
-             <div class="col-12 projects-item">
+             <div class="col-12 projects-item d-flex justify-content-center col-md-6 col-lg-4">
                <img class="img-fluid" src="./images/books.jpg"
                     srcset="./images/books.jpg 1x, ./images/books@2x.jpg 2x"
                     alt="Books and copybooks on the table">
              </div>
-             <div class="col-12 projects-item">
+             <div class="col-12 projects-item d-flex justify-content-center col-md-6 col-lg-4">
                 <img class="img-fluid" src="./images/meeting.jpg"
                      srcset="./images/meeting.jpg 1x, ./images/meeting@2x.jpg 2x"
                      alt="People are participating in the meeting">
              </div>
-             <div class="col-12 projects-item">
-                <img class="img-fluid projects-img" src="./images/developer-girls.jpg"
-                     srcset="./images/developer-girls.jpg 1x, ./images/developer-girls@2x.jpg 2x"
-                     alt="Two girls conversation">
-             </div>
-             <div class="col-12 projects-item">
-                <img class="img-fluid" src="./images/work-girl.jpg"
+             <div class="col-12 projects-item d-flex justify-content-center col-md-6 col-lg-4">
+                <img class="projects-img" src="./images/work-girl.jpg"
                      srcset="./images/work-girl.jpg 1x, ./images/work-girl@2x.jpg 2x"
-                     alt="Two girls conversation">
+                     alt="A girl hard work">
              </div>
+             <div class="d-none justify-content-center d-lg-flex col-3">
+                <img class="projects-img" src="./images/developer-girl.jpg"
+                     srcset="./images/developer-girl.jpg 1x, ./images/developer-girl@2x.jpg 2x"
+                     alt="A girl hard work">
+             </div>
+             <div class="col-12 projects-item d-none justify-content-center d-lg-flex col-lg-4">
+                <img class="projects-img" src="./images/conversation.jpg"
+                     srcset="./images/conversation.jpg 1x, ./images/conversation@2x.jpg 2x"
+                     alt="Some people are talking">
+             </div>
+             <div class="col-12 projects-item d-flex justify-content-center col-md-6 col-lg-5">
+              <img class="projects-img" src="./images/developer-girls.jpg"
+                   srcset="./images/developer-girls.jpg 1x, ./images/developer-girls@2x.jpg 2x"
+                   alt="Two girls are talking">
+           </div>
            </div>
        </div>
     </section>
+
+    <!-- ===== ABOUT START ===== -->
+    <section class="about">
+       <div class="d-container">
+           <div class="row d-flex flex-md-row-reverse">
+              <div class="col-12 col-md-6 about-info-wrap">
+                <h2 class="about-title fw-medium">Lorem Ipsum is simply dummy text dummy text </h2>
+                <p class="about-text about-text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                <p class="about-text about-text-end">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a class="about-link text-decoration-none text-white d-inline-block" href="#">Read more</a>
+              </div>
+              <div class="col-12 col-md-6">
+                <img class="img-fluid" src="./images/about-img.jpg" 
+                     srcset="./images/about-img.jpg 1x, ./images/about-img@2x.jpg 2x"
+                     alt="Three people are shaking hands">
+              </div>
+           </div>
+       </div>
+    </section>
+
+    <!-- ===== ARTICLE START ===== -->
+    <article class="site-article">
+       <div class="d-container">
+           <div class="article-title-wrap">
+             <h2 class="article-title fw-semibold">Lorem Ipsum</h2>
+             <p class="article-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+           </div>
+           <div class="row form-wrap d-flex align-items-center">
+             <div class="col-12 form-text-wrap col-md-6 px-0 px-md-2">
+               <h3 class="text-white form-title">Stay in the loop</h3>
+               <p class="text-white mb-0 form-info">Subscribe to receive the latest news and updates about TDA.We promise not to spam you! </p>
+             </div>
+             <div class="col-12 col-md-6">
+               <form class="w-auto" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+                 <label class="form-label mb-0">
+                    <input class="form-input" type="email" name="user_email" minlength="5" maxlength="1024" placeholder="Enter email address" required>
+                    <button class="form-btn" type="submit">Continue</button>
+                  </label>
+               </form>
+             </div>
+           </div>
+       </div>
+    </article>
   </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer"> 
+    <div class="d-container">
+      <div class="footer-inner d-none text-white d-md-flex flex-column flex-xl-row justify-content-between ">
+        <div class="d-flex justify-content-between w-100 w-xl-50 mx-auto mx-xl-0">
+          <div class="logo-group">
+            <a class="logo" href="#">
+              <img class="logo-img" src="./images/logo.svg" alt="site-logo">
+            </a>
+            <p class="logo-group-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <a class="text-decoration-none text-white" href="#">@Company.com</a>
+          </div>
+          <div class="footer-about-list">
+            <p>About us</p>
+            <ul class="list list-unstyled">
+              <li class="list-item">
+                <a class="list-link text-white text-decoration-none" href="#">
+                  Company
+                </a>
+              </li>
+              <li class="list-item">
+                <a class="list-link text-white text-decoration-none" href="#">
+                  Portfolio
+                </a>
+              </li>
+              <li class="list-item">
+                <a class="list-link text-white text-decoration-none" href="#">
+                  Careers
+                </a>
+              </li>
+              <li class="list-item">
+                <a class="list-link text-white text-decoration-none" href="#">
+                  Contact us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between w-100 w-xl-50 mx-auto mx-xl-0 mt-5 mt-xl-0">
+          <div class="address">
+            <p>Contact us</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <a class="text-white text-decoration-none" href="tel:+90000000000">+9000 0000 000</a>
+          </div>
+          <div class="d-flex align-items-end">
+            <ul class="list-icon list-unstyled d-flex">
+              <li class="list-item-icon">
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./images/facebook-icon.svg" alt="facebook-logo">
+                </a>
+              </li>
+              <li class="list-item-icon">
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img src="./images/instagram-icon.svg" alt="instagram-logo">
+                </a>
+              </li>
+              <li class="list-item-icon">
+                <a href="https://twitter.com/?lang=ru" target="_blank">
+                  <img src="./images/twitter-icon.svg" alt="twitter-logo">
+                </a>
+              </li>
+              <li class="list-item-icon">
+                <a href="https://ru.linkedin.com/" target="_blank">
+                  <img src="./images/linkedin-icon.svg" alt="linkedin-logo">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-text text-white text-center">Copyright ® 2021 Company All rights Rcerved</p>
+    </div>
+  </footer>
 
     
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
