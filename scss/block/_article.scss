@@ -25,7 +25,7 @@
     line-height: 22.5px;
 }
 
-.form-label{
+.input-wrap{
     display: flex;
     align-items: center;
     width: 100%;
@@ -108,7 +108,7 @@
         margin-bottom: 0;
     }
 
-    .form-label{
+    .input-wrap{
         max-width: 385px;
         margin-left: auto;
         padding-left: 15px;
@@ -116,5 +116,11 @@
 
     .form-btn{
         padding: 8px 13.5px 9px 22.2px;
+    }
+}
+
+@include mobile-first(992px){
+    .article-wrap{
+        padding: 0px 50px;
     }
 }

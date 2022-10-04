@@ -1,6 +1,6 @@
 .hero{
     margin-bottom: 48px;
-    padding: 108px 27px;
+    padding: 108px 26px;
     background-image: url("../../images/hero-bg-mobile.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -45,9 +45,10 @@
 @include mobile-first(768px){
     .hero{
         margin-bottom: 83px;
-        background-image: url("../../images/hero-desktop.png"), url("../../images/hero-bg-mobile.png");
-        background-size: 100% 100%, 100% 70%;
-        background-position: calc(50%), bottom;
+        background-image: url("../../images/hero-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .hero-title{
@@ -63,6 +64,11 @@
 }
 
 @include mobile-first(992px){
+
+    .hero-text-wrap{
+        padding: 0px 50px;
+    }
+
     .hero-text-wrap{
         max-width: 527px;
     }

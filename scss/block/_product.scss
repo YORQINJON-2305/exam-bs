@@ -96,3 +96,9 @@
         }
     }
 }
+
+@include mobile-first(992px){
+    .product-wrap{
+        padding: 0px 50px;
+    }
+}

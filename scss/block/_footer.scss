@@ -37,12 +37,18 @@
 
 .footer-text {
     font-weight: 400;
-    font-size: 13px;
-    line-height: 190.6%;
+    font-size: 12px;
+    line-height: 23px;
 }
 
 .title-size {
     font-size: 20px;
+}
+
+@include mobile-first(640px){
+    .footer-text{
+        font-size: 13px;
+    }
 }
 
 @include mobile-first(1200px){

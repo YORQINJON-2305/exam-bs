@@ -62,33 +62,29 @@
     position: absolute;
     top: 71px;
     right: 0;
+    display: none;
     width: 100%;
     max-width: 375px;
     padding: 50px 20px;
-    background-color: #FCEFE2;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
+    background-image: linear-gradient(90.05deg, #f4a44d -5.66%, #f3a552 115.63%);
 }
 
 .site-header.show .sitenav {
-    opacity: 1;
-    pointer-events: all;
+    display: block;
 }
 
 .sitenav-link {
     font-size: 24px;
-    color: #222222;
+    color: #fff;
 }
 
 .contact-us-btn {
-    padding: 11px 28px;
-    font-family: "Poppins", "Arial", sans-serif !important;
-    font-weight: 400 !important;
+    padding: 10.8px 28.46px 11.09px 27.41px;
     border: none;
     font-size: 13px;
     line-height: 20px;
     color: #DC7000;
+    background-color: #fff;
     border-radius: 6px;
 }
 
@@ -100,12 +96,11 @@
 
     .sitenav {
         position: static;
-        opacity: 1;
+        display: block;
         width: auto;
         max-width: 100%;
         padding: 0;
-        background-color: transparent;
-        pointer-events: all;
+        background-image: none;
     }
 
     .sitenav-item {
@@ -138,5 +133,25 @@
     .sitenav-link {
         font-size: 16px;
         color: #fff;
+    }
+}
+
+@include mobile-first(992px){
+    .sitenav-item {
+        &:first-child {
+            margin-right: 87.5px;
+        }
+
+        &:nth-child(2) {
+            margin-right: 78.85px;
+        }
+
+        &:nth-child(3) {
+            margin-right: 64.3px;
+        }
+
+        &:last-child {
+            margin-right: 68.52px;
+        }
     }
 }

@@ -49,3 +49,9 @@
         margin-top: -40px;
     }
 }
+
+@include mobile-first(992px){
+    .features-wrap{
+        padding: 0px 50px;
+    }
+}
